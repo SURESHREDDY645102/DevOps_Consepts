@@ -1,0 +1,11 @@
+---
+Village:
+  Name: Kanmanur
+  Dist: MBNR
+
+Routes:
+  Noofroutes: 5
+transport:
+  - buses
+  - traines
+  - car

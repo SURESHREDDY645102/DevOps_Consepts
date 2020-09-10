@@ -1,0 +1,3 @@
+Migration: Issues: DHCPservers and DNS servers due to some reasons DHCP sever lesase due to network configurations some of migreations has failed we spoke to network engineers to resolve it
+                  Proxy servers we had a proxy e didnt new we should setup proxy 
+            Exprience in Migrating databases, VMs using aws SMS connector 

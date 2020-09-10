@@ -1,0 +1,15 @@
+Troubleshooting
+   System startups
+   Where to find logs of ec2
+   upliad logs of ec2 to cloudwatch
+
+Errors may be
+   Didnt open port in Security grp
+   Didnt open port in NACL
+   Ephermal ports
+   service may be inactive(log intomachine nd change status)
+
+System Manager
+   How to use it?
+   Performace related
+      too high on configuration

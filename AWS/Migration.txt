@@ -1,0 +1,41 @@
+Data Migration
+  Identify the size of ur Data
+  Data Transport offline:
+    snowball edge in aws
+  Special network connections from ur office to cloud
+     Direct connect in aws
+     Express Route in azure
+  CLI/COnsole
+      Rsync
+  Storage Gateways
+
+Database Migration
+  Snaphsot Migration
+  Incremental Migration 
+      Database in  office is aware of database in Cloud
+  Transactional Migration
+      Ex: Disaster Recovery
+  Relicated Migration 
+
+Application Migration:
+  1)Create reusable image & store in cloud
+      (packer/awscli/powershell/manual) To crate images
+    Rehost/repaltform
+
+  2)Take base image(linux/windows with java/.net)
+       infra => OS
+       platform => java/tomcat, .net/iis, python/apache
+       deploy => Configuration management(CM) Ansible/chef
+    Refactor
+
+  3)Multicloud => VM's
+       Terraform
+            (ansible/chef)
+
+  4)Cloud Migration Framework
+
+   TRY:
+   1) Single machine with some application & Rehost
+   2) Rehost multiple machines from vmware EsXI
+   3) Database Migration(rehost)
+   4) Active Directory

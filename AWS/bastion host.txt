@@ -1,0 +1,7 @@
+**Connecting private subnet from public subnet is called Bastion host
+**Steps for connecting
+   *We should copy the pem file to public subnet
+   *To copy the file in Linus coomand is: SCP <SOURCE> <DESTINATION>
+   *If the destination is diff machine command is: username@ip:<path>
+   *destination is: ec2-user@ip:/home/ec2-user
+   $ scp -i suresh.pem suresh.pem ec2-user@ip:/home/ec2-user

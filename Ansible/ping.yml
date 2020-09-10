@@ -1,0 +1,6 @@
+---
+- hosts: All
+  tasks:
+  - Name: ping
+    ping:
+      data: pong

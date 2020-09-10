@@ -1,0 +1,12 @@
+Create a VM in public subnet
+Block all the traffic into public subnet on everything apart from Http, ssh and ICMP
+
+Create 4 subntes
+   Web, Business, data and management subntes
+
+   Rules:
+   Web: Any one from Internet & management should be able to access this web subnet
+   Business: Only web and management subnet should be allowd to access
+   Data: Only from Business and management
+
+   Also, u can create 4 VMs in all these 4 subntes

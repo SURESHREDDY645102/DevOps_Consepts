@@ -1,0 +1,15 @@
+---
+# Installing apache server in redhat 8
+
+- hosts: webserver
+  become: yes
+  tasks:
+    name: installing apache
+    yum:
+      name: httpd
+      update_cache: yes
+      state: present
+    service:
+      name: restart
+      enabled: yes
+      state: started

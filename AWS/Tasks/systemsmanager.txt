@@ -1,0 +1,5 @@
+Install SSM Agent in windows and Linux ec2 servers
+Then Run go to run command
+Use case: There is no need of Bastion Host and we can use Systems manager to loginto private machine from public
+Patching
+and Administartive work

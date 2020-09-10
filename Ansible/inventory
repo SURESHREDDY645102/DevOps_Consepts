@@ -1,0 +1,11 @@
+[webserver]
+172.31.11.184
+
+[appserver]
+172.31.12.77
+
+[dbserver]
+172.31.9.205
+
+[localhost]
+localhost

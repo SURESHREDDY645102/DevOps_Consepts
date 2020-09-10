@@ -1,0 +1,14 @@
+---
+- hosts: localhost
+  become: yes
+  tasks:
+  - name: installing apache2
+    apt:
+      name: apache2
+      update_cache: yes
+      state: present
+  - name: stating apache2 service
+    service:
+      name: apache2
+      enabled: yes
+      state: started

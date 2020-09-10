@@ -1,0 +1,14 @@
+create 2 vpc
+create necessary subnets
+in one vpc I have Internet gateway
+
+Create a peering connection from VPC A to VPC B
+
+Get into VPC B and accept connection
+
+Modify route tables
+
+Modify route table A to allow communication to B
+Modify route table B to allow communication to A
+
+Test this by creating 2 VMs in 2 VPC and only use Private Ips

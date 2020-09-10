@@ -1,0 +1,12 @@
+---
+- hosts: 192.168.0.5
+  become: yes
+  tasks:
+  - name: "Install git"
+    apt:
+      name: git
+      upgrade_cache: yes
+      state: present
+
+# sudo apt-get update
+# sudo apt-get install git

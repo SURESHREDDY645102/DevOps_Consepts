@@ -1,0 +1,26 @@
+Authorization to ur ec2 machine to speak with systems manager
+Crate an IAM role and attach it to Instance
+Installation
+   Agent
+
+On premise(in office)
+  Authorization
+  Installation
+  Activation
+
+we can do
+  System manafer is a service where withoutloggin in to machines can run:
+   Commands
+   Patching
+
+command for ssn on premise
+  sudo amazon-ssm-agent -register -code "activastion-code" -is "activation-is" -region "region"
+
+  Install SSM Agent in windows and Linux ec2 servers
+Then Run go to run command
+Use case: There is no need of Bastion Host and we can use Systems manager to loginto private machine from public
+Patching
+and Administartive work
+
+Hands on experince in executing in ususing systems manager by run command
+hands on experince in managing patches by using aws systems manager 

@@ -1,0 +1,10 @@
+DATABSES
+  RDS
+    SQL SERVER
+    ORACLE
+    MYSQL
+     AURORA
+    POSTGRE SQL
+     AURORA
+  
+  Nosql and DynamoDb are used to collect data which has no meaning to meaningless(They use JSON script)

@@ -1,0 +1,35 @@
+---
+- hosts: webserver
+  become: yes
+  tasks:
+  - name: Installing httpd
+    yum:
+      name: httpd
+      update_cache: yes
+      state: present
+  - name: starting the service
+    service:
+      name: httpd
+      enabled: yes
+      state: started
+  - name: installing php modules
+    yum:
+      name: "{{ item }}"
+      state: present
+    loop:
+    - php
+    - php-mysql 
+    - php-pdo 
+    - php-gd 
+  - name: copy php page
+    copy:
+      src: info.php
+      dest: /var/www/html/info.php
+  - name: restarting the service
+    service:
+      name: httpd
+      enabled: yes
+      state: restarted
+      
+
+# Documented from https://www.tecmint.com/install-lamp-in-centos-7/
